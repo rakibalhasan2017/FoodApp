@@ -1,0 +1,25 @@
+.search-container {
+    display: flex;
+    justify-content: center; /* Centers the search box horizontally */
+    margin-top: 20px; /* Adds some space at the top */
+}
+
+.search-input {
+    width: 300px; /* Sets a reasonable width for the input */
+    padding: 10px; /* Adds padding inside the input for better spacing */
+    border: 2px solid #ccc; /* Adds a border */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 16px; /* Increases the font size */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Adds transition for hover effect */
+}
+
+.search-input:hover {
+    border-color: #333; /* Darkens the border color on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow on hover */
+}
+
+.search-input:focus {
+    outline: none; /* Removes the default outline */
+    border-color: #555; /* Changes the border color when focused */
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.5); /* Adds a shadow on focus */
+}

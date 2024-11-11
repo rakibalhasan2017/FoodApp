@@ -1,0 +1,10 @@
+.navcontainer {
+    background-color: #333; /* Dark color for the header */
+    color: #fff; /* White text for contrast */
+    padding: 20px; /* Adds some space inside the header */
+    text-align: center; /* Centers the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Gives the text a clean look */
+    font-size: 24px; /* Increases the text size */
+    border-bottom: 2px solid #444; /* Adds a bottom border */
+}
