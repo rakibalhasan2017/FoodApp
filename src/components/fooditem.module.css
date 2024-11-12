@@ -1,0 +1,46 @@
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8; /* Light background color for contrast */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    width: 300px;
+    transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.itemContainer:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+.itemImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Adds rounding to image corners */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.itemTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 10px 0; /* Space above and below the title */
+}
+
+.viewButton {
+    padding: 10px 20px;
+    background-color: #333; /* Dark color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.viewButton:hover {
+    background-color: #555; /* Darker color on hover */
+}
