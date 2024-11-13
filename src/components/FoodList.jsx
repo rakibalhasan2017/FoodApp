@@ -1,6 +1,7 @@
 import Fooditem from "./Fooditem";
 
 export default function({fooddata, setfoodid}) {
+  
     return (
         <div>
              {fooddata.map((food) => (

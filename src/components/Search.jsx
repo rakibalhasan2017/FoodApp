@@ -28,6 +28,7 @@ export default function Search({ fooddata, setfooddata }) {
                 onChange={handlechange}
                 className={styles["search-input"]}
             />
+            <p>value</p>
         </div>
     );
 }
